@@ -18,8 +18,7 @@
     background: #fff;
     margin: 100px auto 20px;
     padding: 40px 30px 70px;
-    border-radius: 10px;
-    
+    border-radius: 10px;   
 }
 
 .todo-app h2 { 
@@ -84,4 +83,13 @@ ul li::before {
     background-position: center;
     top: 12px;
     left: 8px;
+}
+
+ul li.checked{
+    color: #555;
+    text-decoration: line-through;
+}
+
+ul li.checked::before{
+    background-image: url(images/checked.png);
 }
